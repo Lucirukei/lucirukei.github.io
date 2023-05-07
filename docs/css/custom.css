@@ -1,5 +1,5 @@
 html,
-body{
+body {
     height: 100vh;
 }
 
@@ -10,7 +10,7 @@ body {
     color: #dfcce0;
 }
 
-.container{
+.container {
     background-color: #423a43;
     height: fit-content;
     padding: 2rem 2rem;
@@ -20,7 +20,7 @@ body {
     -ms-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
-    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
 }
 
 .about-column {
@@ -33,10 +33,10 @@ body {
 
 .avatar {
     border-radius: 50%;
-    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
 }
 
-.about-sub{
+.about-sub {
     padding: 1rem;
 }
 
@@ -59,12 +59,12 @@ a:hover {
     position: relative;
 }
 
-.bellow{
+.bellow {
     background: #6e656f;
     padding: .5rem 1rem;
     border-radius: 1rem;
     margin: 0 auto 1rem;
-    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
     overflow: hidden;
 }
 
@@ -141,4 +141,13 @@ li {
 
 li::marker {
     position: relative;
+}
+
+#container {
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-out;
+}
+
+.show {
+    opacity: 1 !important;
 }
